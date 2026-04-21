@@ -1,3 +1,7 @@
+```console
+nix-build --expr '(import <nixpkgs> {}).callPackage ./package.nix {}'
+```
+
 # LogicAnalyzer
 
 ## About the project
